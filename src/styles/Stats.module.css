@@ -1,0 +1,13 @@
+.statsContainer {
+    color: #fff;
+    padding: 3rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+
+  .stats {
+    font-weight: bolder;
+    font-size: 1.6rem;
+  }
+  
