@@ -5,16 +5,12 @@ import styles from "../styles/Stats.module.css";
 function Stats(props) {
   return (
     <div className={styles.statsContainer}>
-      <Button
-        variant="outlined"
-        size="large"
-        style={{fontSize: "1.6rem"}}
-      >
-        Current score:{" "} {props.currentScore}
+      <Button variant="outlined" size="large" style={{ fontSize: "1.6rem" }}>
+        Current score: {props.currentScore}
       </Button>
 
-      <Button variant="outlined" size="large" style={{fontSize: "1.6rem"}}>
-        Best score:{" "} {props.highestScore}
+      <Button variant="outlined" size="large" style={{ fontSize: "1.6rem" }}>
+        Best score: {props.bestScore}
       </Button>
     </div>
   );
