@@ -10,11 +10,11 @@ function Stats(props) {
         size="large"
         style={{fontSize: "1.6rem"}}
       >
-        Current score {props.currentScore}
+        Current score:{" "} {props.currentScore}
       </Button>
 
       <Button variant="outlined" size="large" style={{fontSize: "1.6rem"}}>
-        Best score {props.highestScore}
+        Best score:{" "} {props.highestScore}
       </Button>
     </div>
   );

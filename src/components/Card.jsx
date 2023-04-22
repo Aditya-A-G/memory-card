@@ -4,7 +4,7 @@ import styles from "../styles/Card.module.css";
 function Card(props) {
   return (
     <div className={styles.card}>
-      <img src={props.img} alt="pokemon" />
+      <img src={props.imageSrc} alt="pokemon" />
       <div className={styles.nameContainer}>
         <p>{props.name}</p>
       </div>

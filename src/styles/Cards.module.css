@@ -1,0 +1,8 @@
+.cardsContainer{
+    padding: 5em 0;
+    display: grid;
+    grid-template-columns: repeat(4, 160px);
+    justify-content: center;
+    gap: 5em;
+}
+
