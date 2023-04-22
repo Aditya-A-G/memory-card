@@ -3,19 +3,17 @@ import { Button } from "@mui/material";
 import styles from "../styles/Stats.module.css";
 
 function Stats(props) {
-  console.log(styles);
   return (
     <div className={styles.statsContainer}>
       <Button
         variant="outlined"
         size="large"
-        color="secondary"
-        className={styles.stats}
+        style={{fontSize: "1.6rem"}}
       >
         Current score {props.currentScore}
       </Button>
 
-      <Button variant="outlined" size="large" className={styles.stats}>
+      <Button variant="outlined" size="large" style={{fontSize: "1.6rem"}}>
         Best score {props.highestScore}
       </Button>
     </div>
